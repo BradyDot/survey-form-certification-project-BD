@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D&D Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacques+Francois&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <h1 id="title">What Is Your Favorite D&D Class?</h1>
+<p id="description">This survey is aimed at figuring out who 
+is playing what class.</p>
+<form id="survey-form">
+  
+  <label id="name-label" for="name">Name</label>
+    <input id="name" type="text" required  placeholder="Enter your name...">
+  
+  
+  <label id="email-label" for="email">Email</label>
+    <input id="email" type="email" required  placeholder="Enter your email...">
+  
+  
+  <label id="number-label" for="number">Age</label>
+    <input id="number" type="number" required  placeholder="Enter your age..." min="13" max="120">
+  
+  
+  <label id="player-type" for="player-type">Which best describes you?
+    <select id="dropdown" name="player-type" required>
+      <option value="">Select an option</option>
+      <option value="1">I am very new to the game.</option>
+      <option value="2">I only play.</option>
+      <option value="3">I play more than I DM</option>
+      <option value="4">I DM more than I play</option>
+      <option value="5">I only DM.</option>
+    </select>
+  </label>
+  
+  <fieldset>
+    <legend>How often do you play?</legend>
+   <div>
+    <label for="once-a-week">
+        <input id="once-a-week" type="radio" name="player-habits" class="inline" value="1" checked>Once a week or more</label>
+    </div>
+    
+    <div>
+  <label for="every-two-weeks">
+        <input id="every-two-weeks" type="radio" name="player-habits" class="inline" value="2" >Once every two weeks</label>
+    </div>    
+    
+ <div>
+    <label for="once-a-month">
+        <input id="once-a-month" type="radio" name="player-habits" class="inline" value="3" >Once a month</label>
+</div> 
+    
+    <div>
+    <label for="less-often">
+        <input id="less-often" type="radio" name="player-habits" class="inline" value="4" >Less often than once a month</label>
+  <div>
+  </fieldset>
+      
+  <fieldset required>
+    <legend>What is your favorite/most played class(s)?</legend>
+    <div>
+    <label for="artificer">
+      <input id="artificer" type="checkbox" name="fav-class" class="inline" value="artificer">Artificer</label>
+    </div>
+    
+    <div>
+    <label for="barbarian">
+      <input id="barbarian" type="checkbox" name="fav-class" class="inline" value="barbarian">Barbarian</label>
+    </div>
+    
+    <div>
+    <label for="bard">
+      <input id="bard" type="checkbox" name="fav-class" class="inline" value="bard">Bard</label>
+    </div>
+    
+    <div>
+    <label for="cleric">
+      <input id="cleric" type="checkbox" name="fav-class" class="inline" value="cleric">Cleric</label>
+    </div>
+    
+    <div>
+    <label for="druid">
+      <input id="druid" type="checkbox" name="fav-class" class="inline" value="druid">Druid</label>
+    </div>
+    
+    <div>
+    <label for="fighter">
+      <input id="fighter" type="checkbox" name="fav-class" class="inline" value="fighter">Fighter</label>
+    </div>
+    
+    <div>
+    <label for="monk">
+      <input id="monk" type="checkbox" name="fav-class" class="inline" value="monk">Monk</label>
+    </div>
+    
+    <div>
+    <label for="paladin">
+      <input id="paladin" type="checkbox" name="fav-class" class="inline" value="paladin">Paladin</label>
+    </div>
+    
+    <div>
+    <label for="ranger">
+      <input id="ranger" type="checkbox" name="fav-class" class="inline" value="ranger">Ranger</label>
+    </div>
+    
+    <div>
+    <label for="rogue">
+      <input id="rogue" type="checkbox" name="fav-class" class="inline" value="rogue">Rogue</label>
+    </div>
+    
+    <div>
+    <label for="sorcerer">
+      <input id="sorcerer" type="checkbox" name="fav-class" class="inline" value="sorcerer">Sorcerer</label>
+    </div>
+    
+    <div>
+    <label for="warlock">
+      <input id="warlock" type="checkbox" name="fav-class" class="inline" value="warlock">Warlock</label>
+    </div>
+    
+    <div>
+    <label for="wizard">
+      <input id="wizard" type="checkbox" name="fav-class" class="inline" value="wizard">Wizard</label>
+    </div>
+    
+    <div>
+    <label for="other">
+      <input id="other" type="checkbox" name="fav-class" class="inline" value="other">Other (specify below)</label>
+    </div>
+  </fieldset>
+      
+  <label for="add-on"><textarea id="add-on" name="add-on" rows="3" col"90" placeholder="Anything else to add?..."></textarea></label>    
+
+<input id="submit" type="submit" name="submit" value="Submit">     
+</form>
+  </body>
+
+</html>
