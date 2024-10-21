@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(180deg, #F39D8A 0%, #AF3435 100%);
+    width: 100%;
+    height: 100%
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    
+    color: #FFF;
+    font-family: "Jacques Francois";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  p{
+  color: #000;
+  text-align: center;
+  font-family: "Jacques Francois";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+  form {
+    width: 60vw;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    
+  }
+  
+  h1{
+    color: #000;
+    text-align: center;
+    font-family: "Jacquard 12";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  label{
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input, select, textarea{
+    width: 100%;
+    border-radius: 0.25rem;
+    background: rgba(245, 245, 245, 0.50);
+  }
+  
+  input::placeholder {
+    color: rgba(49, 47, 61, 0.50);
+    font-family: "Jacques Francois";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  fieldset{
+    border: none;
+  }
+  
+  .inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    border-radius: 0.5rem;
+    background: #169FBF;
+    width: 8.75rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    horizontal-align: middle;
+    margin: 1em auto;
+    
+    color: #FFF;
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  legend {
+    padding-bottom: -5px;
+    padding-top: 10px;
+  }
